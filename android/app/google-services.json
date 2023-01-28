@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606722288627",
+    "project_id": "calmify-backup",
+    "storage_bucket": "calmify-backup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606722288627:android:d0243ca8119291befb4086",
+        "android_client_info": {
+          "package_name": "com.example.Calmify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606722288627-v475vd129cu32comkkh674gbsc2tlglv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoqnMXI04OjmwgPAdVTzvrfZ_ghCHijBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606722288627-v475vd129cu32comkkh674gbsc2tlglv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
