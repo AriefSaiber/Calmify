@@ -1,17 +1,42 @@
-# calmify
+# Calmify Meditation App [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A new Flutter project.
+A Flutter meditational app built with the following features
 
-## Getting Started
+  - Guided meditation routine with videos and listed steps
+  - Guuided Yoga steps with timer
+  - Various background music
+  - Live chat option to contact customer support or coach
+  - Account-based meditation and yoga milestone counter
+  - Daily notification
+  - Runs on Android
+  
+### Screenshots
 
-This project is a starting point for a Flutter application.
+![Calmify Poster](https://user-images.githubusercontent.com/82442239/232989855-7ffff78f-a98a-4fa9-b9fc-fca75b682a21.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project is built with various awesome open sourced libraries
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-![tumblr_6b7caef01c81c84f7a7c6bb1c14930c0_e496456e_1280](https://user-images.githubusercontent.com/82442239/232418123-17625809-c67e-488e-a7df-d86db036a1d5.png)
+* [firebase_core](https://pub.dev/packages/firebase_core) - To use the Firebase Core API for database
+* [firebase_auth](https://pub.dev/packages/firebase_auth) - To authenticate accounts using Firebase
+* [video_player](https://pub.dev/packages/video_player) - Enable video player features
+* [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) - To generate a notifitication outside the app
+* [email_validator](https://pub.dev/packages/email_validator) - To validate the email registered
+* [slide_to_act](https://pub.dev/packages/slide_to_act) - Better slide animation
+* [smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator) - To allow customizable animated page indicator with a set of built-in effects
+
+
+### Installation
+
+Add your API_KEY and your own credentials from your firebase project to android and ios folders. Run following command in cmd and then run your app
+
+```sh
+$ pub get
+```
+
+Synchronize the project with registered Firebase Firestore and follow the instructions
+
+## How can I support developers?
+- Star our GitHub repo
+- Create pull requests, submit bugs, suggest new features or documentation updates
